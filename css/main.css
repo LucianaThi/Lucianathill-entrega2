@@ -91,6 +91,15 @@ section {
   height: 100vh;
 }
 
+.cuerpovacio {
+  height: 50;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 50px;
+  text-align: center;
+  height: 100vh;
+}
+
 .btn-primary {
   color: rgb(249, 243, 235);
   background-color: rgb(219, 166, 86) !important;
