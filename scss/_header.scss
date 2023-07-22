@@ -1,0 +1,10 @@
+header{
+    width: 100%;
+    background-color: $color-rosa;
+    height: 70px;
+}
+.encabezado { background-color: $color-rosa;
+    width: 100px;
+    position: fixed;
+    z-index: 100px;
+}
