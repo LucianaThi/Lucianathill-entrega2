@@ -29,10 +29,21 @@ body {
 }
 
 h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: xx-large;
-  font-weight: bold;
-  background-position: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 80px;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  margin-top: 100px;
+}
+
+.titulouno {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 40px;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  margin-top: 100px;
 }
 
 main {
@@ -58,7 +69,7 @@ main {
   margin: auto;
 }
 
-section {
+.section {
   text-align: center;
   background-color: rgb(249, 243, 235);
   background-position: center;
@@ -71,15 +82,106 @@ section {
 .texto {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
+  font-size: 20px;
+  word-spacing: 5px;
+  letter-spacing: 5px;  
+  
+}
+
+.textoppal { 
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+.textoquiensoy { 
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  font-size: 20px;
+  word-spacing: normal;
+  letter-spacing: normal;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  flex: content;
+
+}
+
+.Fotomia {
+float: left;
+box-sizing: initial;
+padding: 15px;
+margin: left;
+width: auto;
+
+}
+
+
+
+.texto2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
   font-size: 80px;
   word-spacing: 10px;
   letter-spacing: 5px;
+  margin-top: auto;
+  width: 300 ;
+  height: 300;
+  float: left;
+}
+
+.textos {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.titulo2 { 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 80px;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  margin-top: auto;
+
+}
+
+.titulo3 { 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 80px;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  margin-top: auto;
+
+}
+
+.titulo4 { 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 80px;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  margin-top: auto;
+
 }
 
 .video {
   background-position: center;
   text-align: center;
   margin: auto;
+  width: auto;
+  margin-top: 100px;
 }
 
 .formulariocontacto {
@@ -118,6 +220,48 @@ section {
   background-repeat: repeat-x;
   margin: auto;
   text-align: center;
+}
+
+ .encuentros {  
+  background-position: center;
+  background-repeat: repeat-x;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+.titulos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-position: center;
+  margin: auto;
+  margin-top: 10%;
+  width: auto;
+  height: auto;
+  flex: auto;
+  justify-content: center;
+  padding: 20px;
+  grid-gap: 10px
+
+
+}
+
+.udl {
+float: left;
+margin: auto;
+background-position: center;
+width: 100%;
+
+
+}
+
+.ctc {
+  float: right;
+  margin: auto;
+  background-position: center;
+  width: 100%;
+ 
 }
 
 .menu {
