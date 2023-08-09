@@ -308,3 +308,24 @@ footer div a {
 }
 
 /*# sourceMappingURL=main.css.map */
+.container2 {
+  position: relative;
+  overflow: hidden;
+  width: 60%;
+  padding-top: 40.25%;
+  margin: 4% 0% 4% 20%;
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.centrado{
+  text-align: center;
+}
